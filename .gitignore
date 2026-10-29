@@ -1,0 +1,20 @@
+# Local operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+# Generated build products
+build/
+*.hex
+*.elf
+*.o
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Preserve supplied simulation firmware
+!firmware/sketch_may16a/build/
+!firmware/sketch_may16a/build/arduino.avr.uno/
+!firmware/sketch_may16a/build/arduino.avr.uno/sketch_may16a.ino.hex
